@@ -1,5 +1,4 @@
 # Healthcare AI Voice Assistant
-## Confido AI - Take-Home Challenge
 
 An AI-powered voice assistant for healthcare front-desk operations, built with OpenAI GPT-4o, Whisper, and ElevenLabs.
 
@@ -203,4 +202,5 @@ Assistant: Hello! Thank you for calling Riverside Medical Center.
 
 
 User: I need to schedule an appointment
+
 
