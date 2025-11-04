@@ -192,15 +192,6 @@ These files show the step-by-step conversation flow.
 
 ---
 
-## 🎯 Example Conversations
 
-### Scenario 1: Appointment Scheduling
-
-```
-Assistant: Hello! Thank you for calling Riverside Medical Center. 
-           I'm an AI assistant. How can I help you today?
-
-
-User: I need to schedule an appointment
 
 
