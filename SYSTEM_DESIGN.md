@@ -3,7 +3,7 @@
 
 **Author:** AI Solutions Engineer  
 **Date:** October 29, 2025  
-**Project:** Confido AI Take-Home Challenge
+**Project:** Healthcare AI Voice Assistant
 
 ---
 
