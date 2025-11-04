@@ -85,9 +85,7 @@ ELEVENLABS_VOICE_ID=21m00Tcm4TlvDq8ikWAM  # Optional: Rachel voice (default)
 
 ---
 
-### ⚡ Quick Test Option (Temporary Keys)
 
-**For immediate testing without API setup**, temporary evaluation keys are provided below.
 
 Create a `.env` file with:
 ```bash
@@ -97,9 +95,8 @@ Create a `.env` file with:
 
 > ⚠️ **Important Notes:**
 > - These keys are for evaluation purposes only
-> - They will be revoked after November 7, 2025
 > - For extended testing, please use your own API keys (see setup above)
-> - **Alternative:** Listen to pre-recorded demos in `demos/` folder (no setup required)
+
 
 ---
 ## 🎮 Usage
@@ -134,30 +131,6 @@ python main.py
 
 ---
 
-## 🎤 Demo Recordings
-
-
-Three complete conversation demos are included in the `demos/` folder:
-
-### 1. Demo 1 - Appointment Scheduling
-**File:** `Demo 1 - Appointment.mp3`  
-**Duration:** ~1:10 min  
-**Scenario:** Patient schedules a check-up appointment with preferred doctor and time  
-**Demonstrates:** Full booking flow, date negotiation, slot availability checking
-
-### 2. Demo 2 - Insurance Verification
-**File:** `Demo 2 - Insurance Verification.mp3`  
-**Duration:** ~45 seconds  
-**Scenario:** Patient verifies insurance coverage (Blue Cross Blue Shield PPO)  
-**Demonstrates:** Insurance verification flow, quick confirmation
-
-### 3. Demo 3 - Edge Case (No Available Slot)
-**File:** `Demo 3 - Edge Case.mp3`  
-**Duration:** ~1:30 min  
-**Scenario:** Patient requests appointment for tomorrow but no slots available  
-**Demonstrates:** Graceful handling of unavailable slots, alternative date suggestions
-
-> **Note:** All demos feature natural conversation flow with ElevenLabs TTS for both user and assistant voices.
 
 ---
 
@@ -242,5 +215,6 @@ These files show the step-by-step conversation flow.
 ```
 Assistant: Hello! Thank you for calling Riverside Medical Center. 
            I'm an AI assistant. How can I help you today?
+
 
 User: I need to schedule an appointment
