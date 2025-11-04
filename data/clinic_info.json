@@ -1,0 +1,54 @@
+{
+  "name": "Riverside Medical Center",
+  "location": {
+    "address": "450 Medical Plaza Drive",
+    "city": "Austin",
+    "state": "TX",
+    "zip": "78701",
+    "phone": "+1 (512) 555-0100"
+  },
+  "hours": {
+    "monday": "9:00 AM - 5:00 PM",
+    "tuesday": "9:00 AM - 5:00 PM",
+    "wednesday": "9:00 AM - 5:00 PM",
+    "thursday": "9:00 AM - 5:00 PM",
+    "friday": "9:00 AM - 5:00 PM",
+    "saturday": "Closed",
+    "sunday": "Closed"
+  },
+  "doctors": [
+    {
+      "id": "dr_smith",
+      "name": "Dr. Emily Smith",
+      "specialty": "Family Medicine",
+      "accepting_new_patients": true
+    },
+    {
+      "id": "dr_johnson",
+      "name": "Dr. Michael Johnson",
+      "specialty": "Internal Medicine",
+      "accepting_new_patients": true
+    },
+    {
+      "id": "dr_garcia",
+      "name": "Dr. Sofia Garcia",
+      "specialty": "Pediatrics",
+      "accepting_new_patients": false
+    }
+  ],
+  "services": [
+    "Annual Physical Exams",
+    "Preventive Care",
+    "Chronic Disease Management",
+    "Minor Procedures",
+    "Lab Work",
+    "Vaccinations"
+  ],
+  "parking": "Free parking available in the medical plaza",
+  "what_to_bring": [
+    "Photo ID",
+    "Insurance card",
+    "List of current medications",
+    "Copay payment"
+  ]
+}

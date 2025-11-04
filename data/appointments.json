@@ -1,0 +1,221 @@
+{
+  "appointment_types": [
+    {
+      "id": "new_patient",
+      "name": "New Patient Visit",
+      "duration_minutes": 60,
+      "description": "Comprehensive first visit"
+    },
+    {
+      "id": "annual_physical",
+      "name": "Annual Physical",
+      "duration_minutes": 45,
+      "description": "Yearly wellness exam"
+    },
+    {
+      "id": "follow_up",
+      "name": "Follow-up Visit",
+      "duration_minutes": 30,
+      "description": "Follow-up for existing condition"
+    },
+    {
+      "id": "sick_visit",
+      "name": "Sick Visit",
+      "duration_minutes": 20,
+      "description": "Acute illness or symptoms"
+    }
+  ],
+  "available_slots": {
+    "2025-11-03": {
+      "dr_smith": [],
+      "dr_johnson": [
+        "11:00",
+        "13:00",
+        "16:00"
+      ]
+    },
+    "2025-11-04": {
+      "dr_smith": [
+        "11:30",
+        "14:30"
+      ],
+      "dr_johnson": [
+        "10:00",
+        "13:30",
+        "15:00",
+        "16:30"
+      ]
+    },
+    "2025-11-05": {
+      "dr_smith": [
+        "09:30",
+        "10:30",
+        "13:00",
+        "15:00"
+      ],
+      "dr_johnson": [
+        "09:00",
+        "11:00",
+        "14:00"
+      ]
+    },
+    "2025-11-06": {
+      "dr_smith": [
+        "09:00",
+        "10:00",
+        "11:00",
+        "14:00",
+        "16:00"
+      ],
+      "dr_johnson": [
+        "09:30",
+        "13:00",
+        "15:30"
+      ]
+    },
+    "2025-11-07": {
+      "dr_smith": [],
+      "dr_johnson": [
+        "10:00",
+        "11:30",
+        "14:00",
+        "16:00"
+      ]
+    }
+  },
+  "booked_appointments": [
+    {
+      "id": "apt_001",
+      "patient_name": "John Doe",
+      "date": "2025-11-03",
+      "time": "11:00",
+      "doctor_id": "dr_smith",
+      "type": "annual_physical"
+    },
+    {
+      "id": "apt_002",
+      "patient_name": "John Martinez",
+      "patient_phone": "555-9876",
+      "date": "2025-11-06",
+      "time": "14:30",
+      "doctor_id": "dr_johnson",
+      "type": "follow_up",
+      "reason": "back pain",
+      "booked_at": "2025-10-29T17:38:49.339975",
+      "status": "confirmed"
+    },
+    {
+      "id": "apt_003",
+      "patient_name": "Sarah Johnson",
+      "patient_phone": "555-0123",
+      "date": "2025-11-03",
+      "time": "09:00",
+      "doctor_id": "dr_smith",
+      "type": "annual_physical",
+      "reason": "check-up",
+      "booked_at": "2025-10-29T21:47:35.548487",
+      "status": "confirmed"
+    },
+    {
+      "id": "apt_004",
+      "patient_name": "Alvaro Vazquez",
+      "patient_phone": "+549341587400",
+      "date": "2025-11-03",
+      "time": "10:00",
+      "doctor_id": "dr_smith",
+      "type": "sick_visit",
+      "reason": "back problem",
+      "booked_at": "2025-11-01T15:27:19.200839",
+      "status": "confirmed"
+    },
+    {
+      "id": "apt_005",
+      "patient_name": "Sarah Johnson",
+      "patient_phone": "555-0123",
+      "date": "2025-11-07",
+      "time": "09:00",
+      "doctor_id": "dr_smith",
+      "type": "annual_physical",
+      "reason": "regular check-up",
+      "booked_at": "2025-11-01T16:56:47.018712",
+      "status": "confirmed"
+    },
+    {
+      "id": "apt_006",
+      "patient_name": "Sarah Johnson",
+      "patient_phone": "555-0123",
+      "date": "2025-11-07",
+      "time": "10:30",
+      "doctor_id": "dr_smith",
+      "type": "annual_physical",
+      "reason": null,
+      "booked_at": "2025-11-01T17:02:45.362480",
+      "status": "confirmed"
+    },
+    {
+      "id": "apt_007",
+      "patient_name": "Sarah Johnson",
+      "patient_phone": "555-0123",
+      "date": "2025-11-03",
+      "time": "14:00",
+      "doctor_id": "dr_smith",
+      "type": "annual_physical",
+      "reason": "check-up",
+      "booked_at": "2025-11-01T17:05:06.947199",
+      "status": "confirmed"
+    },
+    {
+      "id": "apt_008",
+      "patient_name": "Sarah Johnson",
+      "patient_phone": "555-0123",
+      "date": "2025-11-03",
+      "time": "15:30",
+      "doctor_id": "dr_smith",
+      "type": "annual_physical",
+      "reason": "check-up",
+      "booked_at": "2025-11-01T17:13:02.109271",
+      "status": "confirmed"
+    },
+    {
+      "id": "apt_009",
+      "patient_name": "Sarah Johnson",
+      "patient_phone": "555-0123",
+      "date": "2025-11-04",
+      "time": "09:00",
+      "doctor_id": "dr_smith",
+      "type": "annual_physical",
+      "reason": null,
+      "booked_at": "2025-11-01T17:27:29.503686",
+      "status": "confirmed"
+    },
+    {
+      "id": "apt_010",
+      "patient_name": "John Martinez",
+      "patient_phone": "555-9876",
+      "date": "2025-11-03",
+      "time": "09:30",
+      "doctor_id": "dr_johnson",
+      "type": "sick_visit",
+      "reason": "back pain",
+      "booked_at": "2025-11-02T19:55:45.505593",
+      "status": "confirmed"
+    },
+    {
+      "id": "apt_011",
+      "patient_name": "John Martinez",
+      "patient_phone": "555-9876",
+      "date": "2025-11-07",
+      "time": "17:30",
+      "doctor_id": "dr_smith",
+      "type": "sick_visit",
+      "reason": "back pain",
+      "booked_at": "2025-11-02T22:12:07.433797",
+      "status": "confirmed"
+    }
+  ],
+  "scheduling_rules": {
+    "advance_booking_days": 90,
+    "minimum_notice_hours": 24,
+    "cancellation_notice_hours": 24
+  }
+}

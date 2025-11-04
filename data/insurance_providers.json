@@ -1,0 +1,52 @@
+{
+  "accepted_providers": [
+    {
+      "id": "bcbs",
+      "name": "Blue Cross Blue Shield",
+      "plans_accepted": ["PPO", "HMO", "EPO"],
+      "requires_referral": false,
+      "copay_info": "Varies by plan"
+    },
+    {
+      "id": "aetna",
+      "name": "Aetna",
+      "plans_accepted": ["PPO", "HMO"],
+      "requires_referral": false,
+      "copay_info": "$25-50 typical copay"
+    },
+    {
+      "id": "united",
+      "name": "UnitedHealthcare",
+      "plans_accepted": ["PPO", "HMO", "POS"],
+      "requires_referral": true,
+      "copay_info": "Varies by plan"
+    },
+    {
+      "id": "cigna",
+      "name": "Cigna",
+      "plans_accepted": ["PPO", "HMO"],
+      "requires_referral": false,
+      "copay_info": "$30 typical copay"
+    },
+    {
+      "id": "medicare",
+      "name": "Medicare",
+      "plans_accepted": ["Original Medicare", "Medicare Advantage"],
+      "requires_referral": false,
+      "copay_info": "Part B deductible applies"
+    },
+    {
+      "id": "medicaid",
+      "name": "Medicaid",
+      "plans_accepted": ["Texas Medicaid"],
+      "requires_referral": true,
+      "copay_info": "Usually no copay"
+    }
+  ],
+  "not_accepted": [
+    "Ambetter",
+    "Oscar Health",
+    "Molina Healthcare"
+  ],
+  "verification_notes": "We verify insurance eligibility before your appointment. Please have your insurance card ready."
+}
