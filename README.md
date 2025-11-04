@@ -84,21 +84,6 @@ ELEVENLABS_VOICE_ID=21m00Tcm4TlvDq8ikWAM  # Optional: Rachel voice (default)
 - ElevenLabs: https://elevenlabs.io/app/settings/api-keys
 
 ---
-
-
-
-Create a `.env` file with:
-```bash
-
-
-```
-
-> ⚠️ **Important Notes:**
-> - These keys are for evaluation purposes only
-> - For extended testing, please use your own API keys (see setup above)
-
-
----
 ## 🎮 Usage
 
 ### Run the Application
@@ -218,3 +203,4 @@ Assistant: Hello! Thank you for calling Riverside Medical Center.
 
 
 User: I need to schedule an appointment
+
